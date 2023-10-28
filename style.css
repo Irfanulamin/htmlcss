@@ -5,12 +5,12 @@
   font-family: "Poppins", sans-serif;
 }
 
-#navbar {
+#navbar_container {
   background-color: rgb(218, 218, 218);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.5rem 3rem;
+  padding: 0.5rem 6rem;
 }
 
 #nav_links {
@@ -24,4 +24,59 @@
   text-decoration: none;
   color: black;
   font-size: 0.5rem;
+}
+
+.banner_container {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+    url("./asset/image/background.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.banner_content {
+  color: white;
+}
+.banner_content h1 {
+  font-size: 3rem;
+}
+.banner_content p {
+  color: #ff8c00;
+  padding: 1rem;
+}
+
+.primary_btn {
+  background-color: #ff8c00;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  font-weight: 600;
+}
+
+.primary_btn:hover {
+  background-color: white;
+  color: #ff8c00;
+  transition: all ease 0.3s;
+}
+
+.secondary_btn {
+  background-color: white;
+  padding: 10px 20px;
+  border: none;
+  color: #ff8c00;
+  font-weight: 600;
+}
+
+.secondary_btn:hover {
+  background-color: #ff8c00;
+  color: white;
+  transition: all ease 0.3s;
+}
+
+.orange_text {
+  color: #ff8c00;
 }
