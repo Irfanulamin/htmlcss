@@ -1,0 +1,27 @@
+* {
+  margin: 0px;
+  padding: 0px;
+
+  font-family: "Poppins", sans-serif;
+}
+
+#navbar {
+  background-color: rgb(218, 218, 218);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 3rem;
+}
+
+#nav_links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+#nav_links a {
+  text-decoration: none;
+  color: black;
+  font-size: 0.5rem;
+}
